@@ -34,6 +34,13 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover{
+
+    color: #ffa600;
+    text-decoration: none;
+    font-size: 22px;
+}
+
 .produtos{
 
     width: 940px;
@@ -54,6 +61,7 @@ nav a {
     border-radius: 10px;
 
 }
+
 
 .produtos h2{
 
