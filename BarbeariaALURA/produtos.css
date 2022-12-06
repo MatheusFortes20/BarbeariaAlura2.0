@@ -1,6 +1,6 @@
 header{
 
-    background:#58565688 ;
+    background:#000000 ;
     padding: 20px 0;
 }
 
@@ -28,7 +28,7 @@ nav li{
 nav a {
 
     text-transform: uppercase;
-    color: #000000;
+    color: hsl(0, 0%, 100%);
     font-weight: bold;
     font-size: 20px;
     text-decoration: none;
@@ -36,7 +36,7 @@ nav a {
 
 nav a:hover{
 
-    color: #ffa600;
+    color: #f8c566;
     text-decoration: none;
     font-size: 22px;
 }
@@ -64,13 +64,19 @@ nav a:hover{
 
 .produtos li:hover{
 
-    border-color: #ffa600;
+    border-color: #f8c566;
 }
 
 .produtos li:active{
 
-    border-color: #ffa600;
+    border-color: #b88629;
 
+
+}
+
+.produtos li:hover h2{
+
+    font-size: 34px;
 }
 
 
@@ -92,4 +98,19 @@ nav a:hover{
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+
+footer{
+
+    text-align: center;
+    background: #000000;
+    padding: 40px 0;
+}
+
+.copy {
+
+    font-size:15px ;
+    color: azure;
+    margin: 20px 0;
 }
