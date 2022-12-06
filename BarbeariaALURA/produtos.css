@@ -62,6 +62,17 @@ nav a:hover{
 
 }
 
+.produtos li:hover{
+
+    border-color: #ffa600;
+}
+
+.produtos li:active{
+
+    border-color: #ffa600;
+
+}
+
 
 .produtos h2{
 
