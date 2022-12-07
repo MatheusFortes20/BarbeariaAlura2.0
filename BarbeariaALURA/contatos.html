@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Contatos - Barbearia Alura</title>
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="produtos.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -26,13 +26,42 @@
     </header>
     <main>
 
-fffffffffffffffff
-fffffffffffffffffffffffffffffff
-ffffff
+        <form>
+            <label for="nomesobrenome">Nome e sobrenome:</label>
+            <input type="text" id="nomesobrenome">
+            
+            <label for="email">Email:</label>
+            <input type="text" id="email">
+            
+            <label for="telefone">Telefone:</label>
+            <Input type="text" id="telefone">
+
+            <label for="mensagem" id="mensagem">Mensagem:</label>    
+            <textarea cols="70" rows="10" id="mensagem"></textarea>
+            
+            <div>
+                <p>Como voce prefere o nosso contato?</p>
+                <label for="radio-email">Email:</label>
+                <input type="radio" name="contato" value="email" id="radio-email">
+    
+                <label for="radio-telefone">Telefone:</label>
+                <input type="radio" name="contato" value="telefone" id="radio-telefone">
+    
+                <label for="radio-Whatsapp">Whatsapp:</label>
+                <input type="radio" name="contato" value="Whatsapp" id="radio-Whatsapp">
+            </div>
+           
+            <label><input type="checkbox"> de receber nossas novidades por email?</label>
+
+            <input type="submit" value="Enviar Formulario">
+        </form>
+
+
+
     </main>
     <footer>
         <img src="logo-branco.png">
-        <p class="copy">&copy;  Copyrigth Barbearia Alura- 2022</p>
+        <p class="copy">&copy; Copyrigth Barbearia Alura- 2022</p>
     </footer>
 </body>
 

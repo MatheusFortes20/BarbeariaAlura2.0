@@ -1,65 +1,141 @@
-body{
+header{
 
-   
+    background:#000000 ;
+    padding: 20px 0;
 }
 
-#banner{
+.caixa{
 
-    width: 100%;
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
-.principal{
+nav{
 
-    background: #cccccc;
-    padding: 30px;
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
-.titulo-principal{
+nav li{
 
-    padding-left: 20px;
+    display: inline ;
+    margin: 0 0 0 15px;
+
 }
 
-.titulo-centralizado{
+nav a {
 
-    text-align: center;
-}
-
-p {
-
-    text-align: center;
-   
-}
-
-#missao{
-
+    text-transform: uppercase;
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
     font-size: 20px;
+    text-decoration: none;
 }
 
-em strong{
+nav a:hover{
 
-    color: red;
+    color: #f8c566;
+    text-decoration: none;
+    font-size: 22px;
 }
 
-.itens{
+.produtos{
 
-    font-style: italic;
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
 
-.beneficios{
-
-    background: #ffffff;
-    padding: 20px;
-}
-
-ul{
+.produtos li {
 
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    margin: 0 1.5%;
+    padding: 20px 25px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+
 }
 
-.imagembeneficios{
+.produtos li:hover{
 
+    border-color: #f8c566;
+}
+
+.produtos li:active{
+
+    border-color: #b88629;
+
+
+}
+
+.produtos li:hover h2{
+
+    font-size: 34px;
+}
+
+
+.produtos h2{
+
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descriçao{
+
+    font-size: 18px;
+    
+}
+
+
+.produto-preço{
+
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+footer{
+
+    text-align: center;
+    background: #000000;
+    padding: 40px 0;
+}
+
+.copy {
+
+    font-size:15px ;
+    color: azure;
+    margin: 20px 0;
+}
+
+main{
+
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+
+    margin: 40px 0;
+}
+
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input{
+
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
     width: 50%;
 }
