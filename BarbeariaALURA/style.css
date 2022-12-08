@@ -167,3 +167,15 @@ form label, form legend{
 
 
 
+.select{
+
+    width: 20%;
+    padding: 5px 0;
+    background: rgb(0, 0, 0);
+    color: azure;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+
+
+}
