@@ -179,3 +179,24 @@ form label, form legend{
 
 
 }
+
+table{
+
+    margin: 20px 0 40px;
+    
+    }
+
+thead{
+
+    background:#474747 ;
+    color: white;
+    font-weight: bolder;
+}
+
+td, th{
+
+    border: 2px solid black ;
+    padding: 15px 8px;
+   
+
+}
