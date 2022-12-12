@@ -1,3 +1,8 @@
+body{
+
+    font-family: 'Hanalei Fill', cursive;
+}
+
 header{
 
     background:#000000 ;
@@ -38,7 +43,7 @@ nav a:hover{
 
     color: #f8c566;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .produtos{
@@ -54,7 +59,7 @@ nav a:hover{
     text-align: center;
     width: 30%;
     vertical-align: top;
-    margin: 0 1.5%;
+    margin: 0 1.0%;
     padding: 20px 25px;
     box-sizing: border-box;
     border: 2px solid #000000;
@@ -212,6 +217,7 @@ td, th{
 text-align: center;
 font-size: 2em;
 margin: 0 0 1em;
+clear: left;
 
 }
 
@@ -232,7 +238,9 @@ margin: 0 0 1em;
 
 .utensilios{
 
-    width:150px ;
+    width:120px ;
+    float: left;
+    margin: 0 20px 20px 0;
 }
 
 .imagembeneficios{
