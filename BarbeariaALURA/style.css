@@ -43,7 +43,7 @@ nav a:hover{
 
     color: #f8c566;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .produtos{
@@ -221,6 +221,12 @@ clear: left;
 
 }
 
+.principal{
+
+    padding: 3em 0;
+    background: #fefefe;
+}
+
 .principal p{
 
     margin: 0 0 1em;
@@ -243,7 +249,52 @@ clear: left;
     margin: 0 20px 20px 0;
 }
 
-.imagembeneficios{
+.mapa{
+
+    padding: 3em 0;
+
+}
+
+.mapa p{
+
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.beneficios{
+
+    background: #888888;
+}
+
+.conteudo-beneficio{
+
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficio{
+
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens{
+
+    line-height: 2.75;
+}
+
+.imagem-beneficios{
 
     width: 60%;
 }
+
+
+
+.videobarbearia{
+
+    width: 560px;
+    padding: 3em 0;
+    margin: 2em auto;
+}
+
