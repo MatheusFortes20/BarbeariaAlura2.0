@@ -122,8 +122,7 @@ footer{
 
 main{
 
-    width: 940px;
-    margin: 0 auto;
+    
 }
 
 form{
@@ -223,8 +222,10 @@ clear: left;
 
 .principal{
 
-    padding: 3em 0;
+    padding: 2em 0;
     background: #fefefe;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .principal p{
@@ -251,7 +252,9 @@ clear: left;
 
 .mapa{
 
-    padding: 3em 0;
+    padding: 2em 0;
+    background: linear-gradient(#FEFEFE,#888888);
+    
 
 }
 
@@ -259,17 +262,28 @@ clear: left;
 
     margin: 0 0 2em;
     text-align: center;
+   
+
+}
+
+.mapa-conteudo{
+
+    width: 940px;
+    margin: 0 auto;
+
 }
 
 .beneficios{
 
-    background: #888888;
+   padding: 3em 0;
+    background:#888888;
 }
 
 .conteudo-beneficio{
 
     width: 640px;
     margin: 0 auto;
+    
 }
 
 .lista-beneficio{
