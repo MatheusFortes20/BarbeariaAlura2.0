@@ -127,6 +127,7 @@ main{
 
 form{
 
+   
     margin: 40px 0;
 }
 
@@ -312,3 +313,9 @@ clear: left;
     margin: 2em auto;
 }
 
+
+#formulario, table{
+
+    margin-left: 5%;
+   
+}
