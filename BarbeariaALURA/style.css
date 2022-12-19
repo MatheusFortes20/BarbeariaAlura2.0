@@ -256,6 +256,7 @@ clear: left;
     padding: 2em 0;
     background: linear-gradient(#FEFEFE,#888888);
     
+    
 
 }
 
@@ -302,6 +303,7 @@ clear: left;
 .imagem-beneficios{
 
     width: 60%;
+    box-shadow: 10px 10px 10px 0 #000000;
 }
 
 
@@ -319,3 +321,26 @@ clear: left;
     margin-left: 5%;
    
 }
+
+@media screen and (max-width: 480px){
+
+    .caixa, .principal, .conteudo-beneficio, .mapa-conteudo, .videobarbearia{
+        width: auto;
+    }
+
+    h1{
+
+        text-align: center;
+    }
+
+    nav{
+
+        position: static;
+    }
+
+    .lista-beneficio, .imagem-beneficios{
+
+        width: 100%;
+    }
+}
+
