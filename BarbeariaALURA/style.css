@@ -127,7 +127,7 @@ main{
 
 form{
 
-   
+    
     margin: 40px 0;
 }
 
@@ -154,7 +154,7 @@ form label, form legend{
 
     width: 35%;
     padding: 15px 0;
-    background: orange;
+    background: rgb(58, 57, 57);
     color: azure;
     font-weight: bold;
     font-size: 18px;
@@ -174,9 +174,10 @@ form label, form legend{
 
 .select{
 
-    width: 20%;
-    padding: 5px 0;
-    background: rgb(0, 0, 0);
+   
+    width: 50%;
+    padding: 10px 0;
+    background: rgb(58, 57, 57);
     color: azure;
     font-size: 18px;
     border: none;
@@ -343,4 +344,5 @@ clear: left;
         width: 100%;
     }
 }
+
 
