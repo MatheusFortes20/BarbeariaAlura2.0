@@ -132,13 +132,15 @@ form{
 }
 
 form label, form legend{
+  
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
+    
 }
 
 .input-padrao{
-
+   
     display: block;
     margin: 0 0 20px;
     padding: 10px 20px;
@@ -322,6 +324,29 @@ clear: left;
     margin-left: 5%;
    
 }
+
+@media screen and (max-width: 480px){
+
+    .caixa, .principal, .conteudo-beneficio, .mapa-conteudo, .videobarbearia{
+        width: auto;
+    }
+
+    h1{
+
+        text-align: center;
+    }
+
+    nav{
+
+        position: static;
+    }
+
+    .lista-beneficio, .imagem-beneficios{
+
+        width: 100%;
+    }
+}
+
 
 @media screen and (max-width: 480px){
 
