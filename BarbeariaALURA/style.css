@@ -346,8 +346,32 @@ clear: left;
     box-shadow: 10px 10px 10px 0 #000000;
 
 
-   
-   
+}
+
+.esterEGG{
+
+    color:rgb(209, 209, 209);
+    margin-top: 20px;
+    text-align: justify;
+    padding: 20px;
+     padding: 10px;
+    width: 60vh;
+    background-color: rgb(209, 209, 209);
+    border: none;
+    border-radius: 10px;
+    border: 3px solid rgb(209, 209, 209);; 
+    box-shadow: 10px 10px 10px 0 rgb(209, 209, 209); 
+
+}
+
+.esterEGG:hover{
+
+                              
+    
+    color:red;
+    border: 3px solid rgb(255, 0, 0);
+    box-shadow: 5px 5px 5px 0 red; 
+    
     
 }
 
