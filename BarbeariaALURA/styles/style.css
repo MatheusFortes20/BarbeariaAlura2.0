@@ -120,10 +120,7 @@ footer{
     margin: 20px 0;
 }
 
-main{
 
-    
-}
 
 form{
 
@@ -154,7 +151,7 @@ form label, form legend{
 
 .enviar{
 
-    width: 35%;
+    width: 25%;
     padding: 15px 0;
     background: rgb(58, 57, 57);
     color: azure;
@@ -177,7 +174,7 @@ form label, form legend{
 .select{
 
    
-    width: 50%;
+    width: 25%;
     padding: 10px 0;
     background: rgb(58, 57, 57);
     color: azure;
@@ -186,6 +183,12 @@ form label, form legend{
     border-radius: 5px;
 
 
+}
+
+.select:hover{
+
+    background: orange;
+    color: #000000;
 }
 
 table{
@@ -242,11 +245,6 @@ clear: left;
     font-weight: bold;
 }
 
-.principal em{
-
-    font-style: italic;
-}
-
 .utensilios{
 
     width:120px ;
@@ -254,6 +252,7 @@ clear: left;
     margin: 0 20px 20px 0;
 }
 
+  
 .mapa{
 
     padding: 2em 0;
@@ -411,7 +410,7 @@ clear: left;
 
     nav{
 
-        position: static;
+        position: relative;
     }
 
     .lista-beneficio, .imagem-beneficios{
